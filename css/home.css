@@ -10,8 +10,7 @@ body {
     min-height: 100vh;
     background-color: #FBFFDF;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
 }
 
 .container {
@@ -179,6 +178,8 @@ body {
 .icono {
     display: flex;
     align-items: center;
+    text-decoration: none;
+    color: black;
 }
 
 .icono img {
@@ -267,4 +268,56 @@ body {
     background-size: auto 200%;
     opacity: 0.3;
     z-index: -1;
+}
+
+footer {
+    background-color: black;
+    padding: 1rem;
+}
+
+.info {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 30%;
+    text-align: center;
+    margin-right: 5%;
+}
+
+.informacion{
+    width: 30%;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    text-align: center;
+    color: white;
+}
+
+.contacto{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 5%;
+    color: white;
+    font-family: sans-serif;
+    justify-content: center;
+}
+
+.contacto p{
+    margin: 1%;
+}
+
+.logo img {
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+    border-radius: 50%;
+    background-color: aqua;
 }
