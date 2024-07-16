@@ -299,6 +299,10 @@ footer {
     color: white;
 }
 
+.informacion p{
+    margin: 1%;
+}
+
 .contacto{
     width: 30%;
     display: flex;
